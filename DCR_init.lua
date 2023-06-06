@@ -838,7 +838,7 @@ function D:SetConfiguration()
     D.MicroUnitF:ResetAllPositions (); -- reset all anchors
 
     T._CatchAllErrors = false; -- During init we catch all the errors else, if a library fails we won't know it.
-    D:BetaWarning();
+    --D:BetaWarning();
 
 end
 
